@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Droid+Serif");
+
+.top-navigation {
+	background-color:black;
+	width:970px
+	height:70px;
+	text-align: center;
+  	width:cover;
+  	margin:0 auto;
+}
+
+.links,
+.title
+{
+	font-family: droid serif;
+  	list-style-type:none;
+	margin:0 auto;
+	padding:5.9em;
+	color:red;
+	text-shadow: 1px 1px 1px black;
+	text-align:center;
+	font-size:23px;
+	}
+
+.title,
+	{
+	background-image: url("http://www.gratisography.com/pictures/247_1.jpg");
+	background-size: cover; 
+	}
