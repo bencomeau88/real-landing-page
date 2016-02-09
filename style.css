@@ -2,28 +2,71 @@
 
 .top-navigation {
 	background-color:black;
-	width:970px
-	height:70px;
 	text-align: center;
-  	width:cover;
-  	margin:0 auto;
+  	
 }
 
-.links,
+.logo {
+	text-align:center;
+	background-color:black;
+}
+
+.links li
+ {
+	font-family: droid serif;
+  	list-style-type:none;
+  	color:white;
+	text-shadow: 0.1em 0.1em 0.2em black;
+	display:inline-block;
+	float:right;
+	margin-left:0.8em;
+	line-height:0.8em;
+
+}
+
+.links {
+	float:right;
+}
+
+.content {
+	padding:0px 15px;
+}
+
 .title
 {
 	font-family: droid serif;
-  	list-style-type:none;
-	margin:0 auto;
 	padding:5.9em;
-	color:red;
-	text-shadow: 1px 1px 1px black;
+	color:white;
+	text-shadow: 0.1em 0.1em 0.2em black;
 	text-align:center;
-	font-size:23px;
+	font-size:25px;
+	background-image: url("https://photos-2.dropbox.com/t/2/AAC2oKSjtzWQq_WkKtL4ma2FOCDvH3IOSA-De8izLXo1iw/12/357404183/jpeg/32x32/3/1455062400/0/2/first-background%20copy.jpg/ENSM5ecCGEsgAigC/KW8UftFosyCQF7X9rgCZFn7FVHUwtxuM6S4d-wOzxEc?size_mode=3&size=2048x1536");
+	background-size: cover;
+	height:9em;
 	}
 
-.title,
-	{
-	background-image: url("http://www.gratisography.com/pictures/247_1.jpg");
-	background-size: cover; 
-	}
+.sub-title {
+	font-family:droid serif;
+	color:white;
+	text-shadow: 0.1em 0.1em 0.2em black;
+	text-align:center;
+	font-size:15px;
+}
+
+button {
+	border-radius:0.4em;
+	padding:0.4em;
+	background-color:#ffbf00;
+	border-style:none;
+	text-shadow:none;
+	margin:0.8em;
+	color:black;
+}
+button:hover {
+	background-color:#00ff80;
+	border-radius:0.8em;
+	cursor: none; } 
+//*how do I import a custom cursor????*//
+
+
+
