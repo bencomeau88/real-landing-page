@@ -43,7 +43,7 @@
 	text-shadow: 0.1em 0.1em 0.2em black;
 	text-align:center;
 	font-size:25px;
-	background-image: url("https://photos-2.dropbox.com/t/2/AAC2oKSjtzWQq_WkKtL4ma2FOCDvH3IOSA-De8izLXo1iw/12/357404183/jpeg/32x32/3/1455062400/0/2/first-background%20copy.jpg/ENSM5ecCGEsgAigC/KW8UftFosyCQF7X9rgCZFn7FVHUwtxuM6S4d-wOzxEc?size_mode=3&size=2048x1536");
+	background-image: url(images/background.jpg);
 	background-size: cover;
 	height:9em;
 	}
@@ -70,17 +70,18 @@ button:hover {
 	border-radius:0.8em;
 	cursor: none; } 
 
-.littleBit {
+.little-bit h1 {
 	font-family:droid serif;
 	font-size:40px;
 	font-weight:normal;
 	margin-top:3em;
+	text-align:center;
 }
 
 .coffee,
 .refill,
 .devices {
-	background-color: black;
+	background-color: white;
 	margin-right:4em;
 	margin-left:4em;
 	margin-top:1em;
@@ -88,9 +89,12 @@ button:hover {
 	
 }	
 
+.icons div {
+	display:inline-block;}
 
 .icons {
 	text-align:center;
+
 }
 //*how do I import a custom cursor????*//
 
