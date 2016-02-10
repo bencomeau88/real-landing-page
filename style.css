@@ -82,19 +82,59 @@ button:hover {
 .refill,
 .devices {
 	background-color: white;
-	margin-right:4em;
-	margin-left:4em;
+	margin-right:2em;
+	margin-left:2em;
 	margin-top:1em;
 	margin-bottom:4em;
+	font-family:droid serif;
+	font-size:25px;
 	
 }	
 
 .icons div {
-	display:inline-block;}
-
+	display:inline-block;
+	text-align:center;
+}
 .icons {
 	text-align:center;
+}
+
+.social-icons li  {
+	list-style-type:none;
+	display:inline-block;
+}
+.social {
+	text-align:center;	
+}
+li {
+	margin-right:0.8em;
+	margin-left:0.8em;
+	margin-top:0.8em;
+	margin-bottom:0.8em;
+	padding:0.7em;
+	border-radius:100px 100px 100px 100px;
+	border:1px solid black;
+	opacity:0.5;
+}
+
+.twitter {
+	color:blue;
+}
+.fb {
+	color:purple;
+}
+.instagram {
+	color:purple;
+}
+a:hover,
+li:hover {
+	background-color:#00ff80;
+	border-radius:0.8em;
+	cursor:none;
 
 }
+
+
+//*How do I change the opacity of the border but not the icons??*//
 //*how do I import a custom cursor????*//
 
