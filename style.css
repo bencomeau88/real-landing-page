@@ -6,6 +6,7 @@
 	position:fixed;
 	width:100%;
 	z-index:9999;
+	margin-top:0;
   	
 }
 
@@ -23,7 +24,7 @@
 	display:inline-block;
 	float:right;
 	margin-left:0.8em;
-	line-height:0.8em;
+	line-height:0.1em;
 
 }
 
@@ -118,20 +119,25 @@ li {
 }
 
 .twitter {
-	color:blue;
+	color:yellow;
+	background-color:white;
 }
 .fb {
-	color:purple;
+	color:white;
+	background-color:white;
 }
 .instagram {
 	color:purple;
+	background-color:white;
 }
 a:hover,
 li:hover {
 	background-color:#00ff80;
 	border-radius:0.8em;
 	cursor:none;
-
+}
+a:target {
+	color:red;
 }
 
 
