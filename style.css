@@ -1,8 +1,11 @@
-@import url("https://fonts.googleapis.com/css?family=Droid+Serif");
+@import url("https://fonts.googleapis.com/css?family=Droid+Serif:400");
 
 .top-navigation {
 	background-color:black;
 	text-align: center;
+	position:fixed;
+	width:100%;
+	z-index:9999;
   	
 }
 
@@ -66,7 +69,28 @@ button:hover {
 	background-color:#00ff80;
 	border-radius:0.8em;
 	cursor: none; } 
+
+.littleBit {
+	font-family:droid serif;
+	font-size:40px;
+	font-weight:normal;
+	margin-top:3em;
+}
+
+.coffee,
+.refill,
+.devices {
+	background-color: black;
+	margin-right:4em;
+	margin-left:4em;
+	margin-top:1em;
+	margin-bottom:4em;
+	
+}	
+
+
+.icons {
+	text-align:center;
+}
 //*how do I import a custom cursor????*//
-
-
 
