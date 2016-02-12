@@ -1,30 +1,36 @@
 @import url("https://fonts.googleapis.com/css?family=Droid+Serif:400");
 
 .top-navigation {
-	background-color:black;
+	background-color:white;
 	text-align: center;
 	position:fixed;
 	width:100%;
 	z-index:9999;
-	margin-top:0;
+	margin-top:-11px;
+	height:4.5rem;
   	
 }
 
 .logo {
 	text-align:center;
-	background-color:black;
+	background-color:white;
+	margin-top:1em;
 }
 
 .links li
  {
-	font-family: droid serif;
+	font-family: roboto;
   	list-style-type:none;
-  	color:white;
-	text-shadow: 0.1em 0.1em 0.2em black;
+  	color:black;
+	text-shadow: 0.1em 0.1em 0.2em white;
 	display:inline-block;
 	float:right;
 	margin-left:0.8em;
 	line-height:0.1em;
+	margin-top:0.8em;
+	margin-bottom:0.8em;
+	border-radius:100px 100px 100px 100px;
+	padding:14px;
 
 }
 
@@ -46,7 +52,7 @@
 	font-size:25px;
 	background-image: url(images/background.jpg);
 	background-size: cover;
-	height:9em;
+	height:12em;
 	}
 
 .sub-title {
@@ -107,15 +113,18 @@ button:hover {
 .social {
 	text-align:center;	
 }
-li {
+.social li {
 	margin-right:0.8em;
-	margin-left:0.8em;
-	margin-top:0.8em;
+	margin-left:0.2em;
+	margin-top:-1.2em;
 	margin-bottom:0.8em;
 	padding:0.7em;
 	border-radius:100px 100px 100px 100px;
 	border:1px solid black;
 	opacity:0.5;
+	height:2.5rem;
+	width:2.5rem;
+	padding-top:0.9rem;
 }
 
 .twitter {
@@ -140,6 +149,15 @@ a:target {
 	color:red;
 }
 
+.join-us {
+	text-align:center;
+	font-family:droid serif;
+	font-size:25px;
+}
+
+.straight-line {
+	width:100rem;
+}
 
 //*How do I change the opacity of the border but not the icons??*//
 //*how do I import a custom cursor????*//
