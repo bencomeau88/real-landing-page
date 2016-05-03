@@ -12,6 +12,7 @@
 }
 
 .logo {
+	float:left;
 	text-align:center;
 	background-color:white;
 	margin-top:1em;
@@ -23,8 +24,8 @@
   	list-style-type:none;
   	color:black;
 	text-shadow: 0.1em 0.1em 0.2em white;
-	display:inline-block;
-	float:right;
+	/*display:inline-block;*/
+	float:left;
 	margin-left:0.8em;
 	line-height:0.1em;
 	margin-top:0.8em;
@@ -35,7 +36,7 @@
 }
 
 .links {
-	float:right;
+	float:left;
 }
 
 .content {
@@ -75,7 +76,7 @@ button {
 button:hover {
 	background-color:#00ff80;
 	border-radius:0.8em;
-	cursor: none; } 
+	cursor: pointer; } 
 
 .little-bit h1 {
 	font-family:droid serif;
@@ -143,7 +144,7 @@ a:hover,
 li:hover {
 	background-color:#00ff80;
 	border-radius:0.8em;
-	cursor:none;
+	cursor:pointer;
 }
 a:target {
 	color:red;
